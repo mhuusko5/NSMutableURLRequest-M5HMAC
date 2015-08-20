@@ -3,7 +3,7 @@
 //  NSMutableURLRequest+M5HMAC
 //
 
-#import "Foundation.h"
+#import <Foundation/Foundation.h>
 
 @interface NSMutableURLRequest (M5HMAC)
 
