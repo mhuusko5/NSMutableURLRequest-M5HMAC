@@ -1,7 +1,7 @@
 Pod::Spec.new do |s|
   s.name = 'NSMutableURLRequest+M5HMAC'
   s.summary = 'NSMutableURLRequest category to allow for easy HMAC signing.'
-  s.version = '1.0.0'
+  s.version = '1.0.2'
   s.license = { :type => 'MIT', :file => 'LICENSE' }
   
   s.social_media_url = 'https://twitter.com/mhuusko5'
