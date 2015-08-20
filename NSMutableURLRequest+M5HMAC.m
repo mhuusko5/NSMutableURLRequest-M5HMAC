@@ -186,7 +186,7 @@ static char base64EncodingTable[64] = {
 
 #pragma mark Functions
 
-NSString* decodeURLString(NSString *string) {
+NS_INLINE NSString* decodeURLString(NSString *string) {
     return (__bridge NSString *) CFURLCreateStringByReplacingPercentEscapesUsingEncoding(NULL, (__bridge CFStringRef) string, CFSTR(""), kCFStringEncodingUTF8);
 }
 
