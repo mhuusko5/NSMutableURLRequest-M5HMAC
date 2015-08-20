@@ -3,7 +3,7 @@
 //  NSMutableURLRequest+M5HMAC
 //
 
-#import "NSMutableURLRequest+M5HMACInternal.h"
+#import "NSMutableURLRequest+M5HMAC.h"
 
 #import <CommonCrypto/CommonDigest.h>
 #import <CommonCrypto/CommonHMAC.h>
